@@ -7,7 +7,13 @@
 			"files": [
 				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/StarterContent/Audio/Collapse01.uasset",
 				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/FPS/Level/PlayerMap.umap",
-				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/FPS/Blueprint/Player/BPC_Player.uasset"
+				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/FPS/Blueprint/Player/BPC_Player.uasset",
+				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/FPS/Blueprint/Player/BPPC_Player.uasset",
+				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/FPS/Blueprint/Player/Input/IMC_Player.uasset",
+				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/FPS/Blueprint/Player/Input/IA_Start.uasset",
+				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/FPS/Blueprint/Player/Input/IMC_Title.uasset",
+				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/FPS/Blueprint/Player/BPGM_Player.uasset",
+				"D:/SJ_UE5_Work/FPSPractice/FPSTest/FPSTank/Content/FPS/Blueprint/Player/Input/IA_LookMouse.uasset"
 			]
 		}
 	]
