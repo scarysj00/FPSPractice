@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FPSTank",
+			"Path": "..\\Source\\FPSTank.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPSTankEditor",
+			"Path": "..\\Source\\FPSTankEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
