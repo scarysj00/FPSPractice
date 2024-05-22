@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\SJ_UE5_Work\\FPSPractice\\FPSTest\\FPSTank\\Source\\FPSTank\\FPSTank.Build.cs",
-		"D:\\SJ_UE5_Work\\FPSPractice\\FPSTest\\FPSTank\\Source\\FPSTank.Target.cs",
-		"D:\\SJ_UE5_Work\\FPSPractice\\FPSTest\\FPSTank\\Source\\FPSTankEditor.Target.cs"
+		"D:\\SJ_UE5_Work\\StudyFPS\\FPSTank\\Source\\FPSTank\\FPSTank.Build.cs",
+		"D:\\SJ_UE5_Work\\StudyFPS\\FPSTank\\Source\\FPSTank.Target.cs",
+		"D:\\SJ_UE5_Work\\StudyFPS\\FPSTank\\Source\\FPSTankEditor.Target.cs"
 	],
 	"EngineVersion": "5.3.2"
 }
