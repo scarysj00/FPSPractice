@@ -42,6 +42,15 @@
     <Filter Include="Source\FPSTank\Actors">
       <UniqueIdentifier>{FFF2229C-5738-3DD2-98BE-DD944EDE1E1B}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\FPSTank\Actors\Controller">
+      <UniqueIdentifier>{D2A978F7-C27B-3370-A730-63ECFF9B00D7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPSTank\Actors\Controller\PKGMPlayerController.cpp">
+      <Filter>Source\FPSTank\Actors\Controller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPSTank\Actors\Controller\PKGMPlayerController.h">
+      <Filter>Source\FPSTank\Actors\Controller</Filter>
+    </ClInclude>
     <Filter Include="Source\FPSTank\Actors\GameMode">
       <UniqueIdentifier>{C9C0D465-973F-363D-93B2-43746526B4FF}</UniqueIdentifier>
     </Filter>
@@ -50,6 +59,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\FPSTank\Actors\GameMode\PKGMGameModeBase.h">
       <Filter>Source\FPSTank\Actors\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPSTank\Data">
+      <UniqueIdentifier>{8A28F98B-E7BC-358D-93BB-A403D65BB997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FPSTank\Data\Input">
+      <UniqueIdentifier>{B1727039-61C1-3C1E-B018-4181B628DA6C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPSTank\Data\Input\BasicInputDataConfig.cpp">
+      <Filter>Source\FPSTank\Data\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPSTank\Data\Input\BasicInputDataConfig.h">
+      <Filter>Source\FPSTank\Data\Input</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
