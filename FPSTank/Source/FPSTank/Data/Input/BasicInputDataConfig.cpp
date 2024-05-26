@@ -13,6 +13,7 @@ UBasicInputDataConfig::UBasicInputDataConfig()
 		check(Asset.Succeeded());
 		InputMappingContext = Asset.Object;
 	}
+
 	{
 		static ConstructorHelpers::FObjectFinder<UInputAction> Asset
 		{
@@ -21,6 +22,7 @@ UBasicInputDataConfig::UBasicInputDataConfig()
 		check(Asset.Succeeded());
 		Move = Asset.Object;
 	}
+
 	{
 		static ConstructorHelpers::FObjectFinder<UInputAction> Asset
 		{

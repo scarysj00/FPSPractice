@@ -42,10 +42,11 @@ void APKGMPlayerController::OnMove(const FInputActionValue& InputActionValue)
 	const FRotator Rotation = K2_GetActorRotation();
 	const FRotator YawRotation = FRotator(0., Rotation.Yaw, 0.);
 	const FVector ForwardVector = YawRotation.Vector();
-	
+	const FVector RightVector = FRotationMatrix(YawRotation).GetScaledAxis(EAxis::Y);
 
 	const FVector ActionValue = InputActionValue.Get<FVector>();
 	ControlledPawn->AddMovementInput(ForwardVector, ActionValue.Y);
+	ControlledPawn->AddMovementInput(RightVector, ActionValue.X);
 }
 
 void APKGMPlayerController::OnLook(const FInputActionValue& InputActionValue)
