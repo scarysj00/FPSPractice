@@ -16,11 +16,12 @@ class FPSTANK_API APKGMPlayerController : public APlayerController
 	GENERATED_BODY()
 
 protected:
+	virtual void PostInitializeComponents() override;
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
 
 protected:
 	void OnMove(const FInputActionValue& InputActionValue);
-	void OnLookMouse(const FInputActionValue& InputActionValue);
+	void OnLook(const FInputActionValue& InputActionValue);
 	
 };

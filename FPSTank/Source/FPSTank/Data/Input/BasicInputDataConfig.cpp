@@ -13,4 +13,20 @@ UBasicInputDataConfig::UBasicInputDataConfig()
 		check(Asset.Succeeded());
 		InputMappingContext = Asset.Object;
 	}
+	{
+		static ConstructorHelpers::FObjectFinder<UInputAction> Asset
+		{
+			TEXT("/Script/EnhancedInput.InputAction'/Game/FPS/Blueprint/Player/Input/IA_Move.IA_Move'")
+		};
+		check(Asset.Succeeded());
+		Move = Asset.Object;
+	}
+	{
+		static ConstructorHelpers::FObjectFinder<UInputAction> Asset
+		{
+			TEXT("/Script/EnhancedInput.InputAction'/Game/FPS/Blueprint/Player/Input/IA_LookMouse.IA_LookMouse'")
+		};
+		check(Asset.Succeeded());
+		Look = Asset.Object;
+	}
 } 

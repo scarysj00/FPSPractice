@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"S:/PolytechGM/TestFPS/FPSTank/Content/FPS/Level/PlayerMap.umap",
+				"S:/PolytechGM/TestFPS/FPSTank/Content/FPS/Blueprint/Player/BPPC_Player.uasset",
+				"S:/PolytechGM/TestFPS/FPSTank/Content/FPS/Blueprint/Player/BPGM_Player.uasset",
+				"S:/PolytechGM/TestFPS/FPSTank/Content/FPS/Blueprint/Player/Input/IA_MouseView.uasset",
 				"D:/SJ_UE5_Work/StudyFPS/FPSTank/Content/FPS/Blueprint/Player/BPC_Player.uasset",
 				"D:/SJ_UE5_Work/StudyFPS/FPSTank/Content/FPS/Level/PlayerMap.umap",
 				"D:/SJ_UE5_Work/StudyFPS/FPSTank/Content/FPS/Blueprint/Player/Input/IA_LookMouse.uasset",
